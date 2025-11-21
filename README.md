@@ -85,7 +85,7 @@ Train a ResNet-18 model with **randomly initialized weights** on the pneumonia d
 | **Training Loss** | 0.2353 |
 | **Validation Loss** | 0.5526 |
 
-<img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/3555e04d-821e-438d-ba3c-a22cca5f36fe" />
+<img width="446" height="270" alt="image" src="https://github.com/user-attachments/assets/3555e04d-821e-438d-ba3c-a22cca5f36fe" />
 
 **Classification Performance:**
 
