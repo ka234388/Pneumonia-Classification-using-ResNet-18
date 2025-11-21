@@ -85,6 +85,8 @@ Train a ResNet-18 model with **randomly initialized weights** on the pneumonia d
 | **Training Loss** | 0.2353 |
 | **Validation Loss** | 0.5526 |
 
+<img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/3555e04d-821e-438d-ba3c-a22cca5f36fe" />
+
 **Classification Performance:**
 
 | Class | Precision | Recall | F1-Score | Support |
@@ -98,6 +100,8 @@ Train a ResNet-18 model with **randomly initialized weights** on the pneumonia d
 - ⚠️ **Weak Normal Detection**: 79% recall (misses 21% of normal cases)
 - 📊 **Model Bias**: Favors pneumonia detection, leading to over-sensitivity
 - 🔴 **False Positives**: 8% of normal cases incorrectly flagged as pneumonia
+
+<img width="1170" height="793" alt="image" src="https://github.com/user-attachments/assets/ba8c327a-8adc-4c75-98c3-ac1f4f693215" />
 
 ---
 
@@ -125,6 +129,7 @@ Fine-tune a ResNet-18 model **pre-trained on ImageNet** weights for pneumonia cl
 | **Test Accuracy** | 95.19% ⭐ (Best) |
 | **Training Loss** | Gradually decreasing |
 | **Validation Loss** | Stable with minor fluctuations |
+<img width="846" height="470" alt="image" src="https://github.com/user-attachments/assets/383ce228-c260-4418-bb2d-b96fd2f220c6" />
 
 **Classification Performance:**
 
@@ -139,6 +144,7 @@ Fine-tune a ResNet-18 model **pre-trained on ImageNet** weights for pneumonia cl
 - ✅ **Balanced Recall**: 90% normal detection, 98% pneumonia detection
 - 📈 **Improvement**: +5.45% accuracy over from-scratch approach
 - ✅ **Better generalization**: Transfer learning works significantly better
+<img width="1170" height="793" alt="image" src="https://github.com/user-attachments/assets/82935a7c-061f-400f-9e3d-000b90bf20b3" />
 
 ---
 
